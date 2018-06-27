@@ -19,7 +19,9 @@ const Todo = sequelize.define('todo', {
     type: Sequelize.BOOLEAN,
     allowNull: false,
     defaultValue: false,
-  }
+  },
+  createdAt: Sequelize.DATE,
+  updatedAt: Sequelize.DATE,
 });
 
 Todo.sync({
