@@ -1,0 +1,10 @@
+{
+  "name": "todo-list-api",
+  "version": "1.0.0",
+  "description": "API for todo list app",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Haritha Rathinakumar",
+  "license": "ISC"
+}
