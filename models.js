@@ -15,7 +15,7 @@ const Todo = sequelize.define('todo', {
     type: Sequelize.STRING,
     allowNull: false,
   },
-  complete: {
+  completed: {
     type: Sequelize.BOOLEAN,
     allowNull: false,
     defaultValue: false,
